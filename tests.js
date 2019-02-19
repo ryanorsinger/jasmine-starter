@@ -9,7 +9,4 @@ describe('helloWorld', function() {
     it('should return the string "Hello, World!" when executed', function() {
       expect(helloWorld()).toBe("Hello, World!");
     });
-    it("should never return 'undefined' when called", function() {
-      expect(helloWorld()).not.toBe(undefined);
-    });
 });
